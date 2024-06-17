@@ -1,0 +1,233 @@
+[
+ {
+  "ECUS": "ATC"
+ },
+ {
+  "ECUS": "BCU"
+ },
+ {
+  "ECUS": "BIF"
+ },
+ {
+  "ECUS": "DTI"
+ },
+ {
+  "ECUS": "ECU"
+ },
+ {
+  "ECUS": "EPC"
+ },
+ {
+  "ECUS": "JdL"
+ },
+ {
+  "ECUS": "PLC"
+ },
+ {
+  "ECUS": "SIC"
+ },
+ {
+  "ECUS": "SSU"
+ },
+ {
+  "ECUS": "TCU"
+ },
+ {
+  "ECUS": "TEC"
+ },
+ {
+  "ECUS": "TSC"
+ },
+ {
+  "ECUS": "UIC"
+ },
+ {
+  "ECUS": "UIM"
+ },
+ {
+  "ECUS": "VTI"
+ },
+ {
+  "ECUS": "VTi"
+ },
+ {
+  "ECUS": "PRC"
+ },
+ {
+  "ECUS": "ICC"
+ },
+ {
+  "ECUS": "AIC"
+ },
+ {
+  "ECUS": "BLC"
+ },
+ {
+  "ECUS": "CCU"
+ },
+ {
+  "ECUS": "CRU"
+ },
+ {
+  "ECUS": "DOI"
+ },
+ {
+  "ECUS": "EIC"
+ },
+ {
+  "ECUS": "FCC"
+ },
+ {
+  "ECUS": "GM1"
+ },
+ {
+  "ECUS": "HCC"
+ },
+ {
+  "ECUS": "JDL"
+ },
+ {
+  "ECUS": "OIC"
+ },
+ {
+  "ECUS": "PDU"
+ },
+ {
+  "ECUS": "PTF"
+ },
+ {
+  "ECUS": "PTQ"
+ },
+ {
+  "ECUS": "PTR"
+ },
+ {
+  "ECUS": "RPT"
+ },
+ {
+  "ECUS": "SCO"
+ },
+ {
+  "ECUS": "SFA"
+ },
+ {
+  "ECUS": "SMB"
+ },
+ {
+  "ECUS": "TIH"
+ },
+ {
+  "ECUS": "XMC"
+ },
+ {
+  "ECUS": "XSC"
+ },
+ {
+  "ECUS": "CLC"
+ },
+ {
+  "ECUS": "CSC"
+ },
+ {
+  "ECUS": "CSM"
+ },
+ {
+  "ECUS": "ETC"
+ },
+ {
+  "ECUS": "GPM"
+ },
+ {
+  "ECUS": "PL1"
+ },
+ {
+  "ECUS": "PL2"
+ },
+ {
+  "ECUS": "PL3"
+ },
+ {
+  "ECUS": "PL4"
+ },
+ {
+  "ECUS": "PTA"
+ },
+ {
+  "ECUS": "PTD"
+ },
+ {
+  "ECUS": "RLC"
+ },
+ {
+  "ECUS": "RPM"
+ },
+ {
+  "ECUS": "SCC"
+ },
+ {
+  "ECUS": "SMV"
+ },
+ {
+  "ECUS": "TIA"
+ },
+ {
+  "ECUS": "VLC"
+ },
+ {
+  "ECUS": "ACU"
+ },
+ {
+  "ECUS": "ASU"
+ },
+ {
+  "ECUS": "BRC"
+ },
+ {
+  "ECUS": "CAB"
+ },
+ {
+  "ECUS": "HCU"
+ },
+ {
+  "ECUS": "ICU"
+ },
+ {
+  "ECUS": "PTI"
+ },
+ {
+  "ECUS": "SCU"
+ },
+ {
+  "ECUS": "SSU "
+ },
+ {
+  "ECUS": "HV1"
+ },
+ {
+  "ECUS": "PTP"
+ },
+ {
+  "ECUS": "TEC\/TEI"
+ },
+ {
+  "ECUS": "TII"
+ },
+ {
+  "ECUS": "TIP"
+ },
+ {
+  "ECUS": "VTV"
+ },
+ {
+  "ECUS": "XMA"
+ },
+ {
+  "ECUS": "XMB"
+ },
+ {
+  "ECUS": "XSA"
+ },
+ {
+  "ECUS": "XSB"
+ }
+]

@@ -1,0 +1,16 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AIOService_v1.MainPage"
+             BackgroundColor="#F0F0F0">
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" BackgroundColor="#2B0B98" HeightRequest="50">
+            <Label Text="Choose Category"  FontSize="30"  TextColor="White"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+        <Frame HasShadow="True" Padding="0" BorderColor="Black" Margin="20,40,20,10">
+            <ImageButton Source="agriculture.png" WidthRequest="250" HeightRequest="200" Clicked="OnAgricultureButtonClicked"  />
+        </Frame>
+        <Frame HasShadow="True" Padding="0" BorderColor="Black" Margin="20,30,20,40">
+            <ImageButton Source="construction.png" WidthRequest="200" HeightRequest="200" Clicked="OnConstructionButtonClicked" />
+        </Frame>
+    </StackLayout>
+</ContentPage>

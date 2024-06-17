@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AIOService_v1.Pages.Diagnostic"
+             Title="Diagnostic"
+             BackgroundColor="#F0F0F0">
+
+    <Grid RowSpacing="30" ColumnSpacing="30" Padding="20" Margin="10,10,10,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Frame HasShadow="True" Padding="0" BorderColor="Black" Grid.Row="0" Grid.Column="0">
+            <ImageButton Source="error.png" Clicked="OnErrorButtonClicked" BackgroundColor="White" HeightRequest="130" WidthRequest="130" HorizontalOptions="Center" VerticalOptions="Start" Margin="2"/>
+        </Frame>
+
+        <Frame HasShadow="True" Padding="0" BorderColor="Black" Grid.Row="0" Grid.Column="1">
+            <ImageButton Source="ecusearch.png" Clicked="OnECUSearchButtonClicked" BackgroundColor="White" HeightRequest="130" WidthRequest="130" HorizontalOptions="Center" VerticalOptions="Start" Margin="2"/>
+        </Frame>
+
+        <Frame HasShadow="True" Padding="0" BorderColor="Black" Grid.Row="1" Grid.Column="0">
+            <ImageButton Source="instruction.png" Clicked="OnInstructionsButtonClicked" BackgroundColor="White" HeightRequest="130" WidthRequest="130" HorizontalOptions="Center" VerticalOptions="Start" Margin="2"/>
+        </Frame>
+
+        <Frame HasShadow="True" Padding="0" BorderColor="Black" Grid.Row="1" Grid.Column="1">
+            <ImageButton Source="contact.png" Clicked="OnInstructionsButtonClicked" BackgroundColor="White" HeightRequest="130" WidthRequest="130" HorizontalOptions="Center" VerticalOptions="Start" Margin="2"/>
+        </Frame>
+
+        <Image Source="tractorlogo.png" BackgroundColor="#F0F0F0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="200" WidthRequest="300" Margin="0,10,0,0"/>
+    </Grid>
+</ContentPage>

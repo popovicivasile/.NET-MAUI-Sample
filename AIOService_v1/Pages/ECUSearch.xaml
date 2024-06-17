@@ -1,0 +1,58 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AIOService_v1.Pages.ECUSearch"
+             Title="ECUSearch"              
+             BackgroundColor="#F0F0F0"
+             >
+    <VerticalStackLayout>
+       
+            <StackLayout>
+            <Frame HasShadow="True"
+               CornerRadius="10"
+               Margin="0,20,0,0"
+               Padding="0"
+               BackgroundColor="White"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center">
+                <Picker ItemsSource="{Binding Ecus}"
+                SelectedItem="{Binding SelectedEcu}"
+                SelectedIndexChanged="OnEcuSelected"
+                Margin="20,0,20,0"
+                        Title="Choose ECU"
+                        TitleColor="Black">
+                    <Picker.ItemDisplayBinding>
+                        <Binding Path="."/>
+                    </Picker.ItemDisplayBinding>
+                </Picker>
+            </Frame>
+
+            <Frame HasShadow="True"
+               CornerRadius="10"
+               Margin="0,20,0,0"
+               Padding="0"
+               BackgroundColor="White"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Center">
+                <Picker Title="Select an Error" 
+                        VerticalOptions="CenterAndExpand"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="FillAndExpand"
+                        TextColor="Black"
+                        ItemsSource="{Binding Errors}"
+                        SelectedItem="{Binding SelectedError}"                        
+                        Margin="20,0,20,0">
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="."/>
+                </Picker.ItemDisplayBinding>
+                </Picker>
+            </Frame>
+        </StackLayout>
+        <Button Text="Search" Clicked="SearchForError" Margin="0,20,0,20"  HorizontalOptions="Center"/>
+        <Label 
+           x:Name="ResultLabel"
+           VerticalOptions="StartAndExpand" 
+           TextColor="Black"
+           HorizontalOptions="CenterAndExpand" 
+           FontSize="25"/>
+    </VerticalStackLayout>
+</ContentPage>
